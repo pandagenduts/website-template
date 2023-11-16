@@ -87,6 +87,8 @@ footer {
 
 #box .box-container div p {
   text-align: center;
+  font-size: 24px;
+  font-weight: 600;
 }
 
 .background.one {
