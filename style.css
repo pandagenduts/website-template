@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(245, 245, 245);
+  overflow: hidden;
+}
+
+.container {
+  max-width: 650px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: lightgray;
+  margin: 20px auto !important;
+
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+header nav {
+  max-width: 200px;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+}
+
+header nav p {
+  font-size: 20px;
+  
+}
+
+/* CONTENT START */
+main {
+  position: relative;
+}
+
+#banner,
+#intro-area,
+header, 
+footer {
+  background-color: lightgray;
+}
+
+#banner, #intro-area, #box {
+  margin-bottom: 20px;
+}
+
+#banner {
+  padding: 40px 0;
+}
+
+#banner h1 {
+  text-align: center;
+}
+
+#intro-area {
+  padding: 40px 0;
+}
+
+#intro-area h1 {
+  text-align: center;
+}
+
+#box .box-container {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+}
+
+#box .box-container div {
+  height: 300px;
+  width: 100%;
+  background-color: lightgray;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#box .box-container div p {
+  text-align: center;
+}
+
+.background.one {
+  position: absolute;
+  top: 50%;
+  left: -110px;
+
+  transform: rotate(-90deg);
+}
+
+.background.two {
+  position: absolute;
+  top: 50%;
+  right: -110px;
+
+  transform: rotate(-90deg);
+}
+
+.background span {
+  font-size: 30px;
+  font-weight: 600;
+  color: rgba(128, 128, 128, 0.459);
+}
+/* CONTENT END */
+
+/* FOOTER START */
+footer {
+  padding: 10px 20px;
+  background-color: lightgray;
+}
+
+footer h2 {
+  text-align: center;
+}
+/* FOOTER END */
